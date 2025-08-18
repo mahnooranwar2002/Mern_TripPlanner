@@ -1,0 +1,85 @@
+.currency-container {
+  min-height: 100vh;
+  padding: 30px;
+  background: linear-gradient(135deg, #e0f7fa, #80deea);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.currency-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #00796b;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.swap-btn {
+  padding: 8px 12px;
+  background: #009688;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.convert-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.convert-btn:hover {
+  background: #004d40;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+.history-list {
+  margin-top: 10px;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.history-list li {
+  background: #f0f4f8;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.expenses-section {
+  width: 100%;
+  max-width: 900px;
+}
